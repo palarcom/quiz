@@ -8,7 +8,7 @@ var protocol = (url[1]||null);
 var dialect = (url[1]||null);
 var port = (url[5]||null);
 var host = (url[4]||null);
-var storage = process.env.DATABSE_STORAGE;
+var storage = process.env.DATABASE_STORAGE;
 // Cargar el modelo ORM
 var Sequelize = require('sequelize');
 
